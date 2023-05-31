@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.each-similar-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 400px;
+  width: 250px;
+  margin-right: 50px;
+  padding-left: 10px;
+}
+
+.similar-product-title {
+  font-size: 17px;
+  color: #1e293b;
+  font-weight: 700;
+  margin-bottom: 1px;
+}
+
+.similar-product-brand {
+  color: #616e7c;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.similar-product-price {
+  color: #12022f;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.similar-product-rating {
+  font-size: 15px;
+}
+
+.price-and-review {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
